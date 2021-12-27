@@ -1,5 +1,11 @@
+import { SignIn } from './components/auth';
+
 function App() {
-  return <div className="App">In new app</div>;
+  return (
+    <div className="App">
+      <SignIn />
+    </div>
+  );
 }
 
 export default App;
